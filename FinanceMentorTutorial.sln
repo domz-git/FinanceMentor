@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32602.291
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinanceMentorTutorial.Server", "FinanceMentorTutorial\Server\FinanceMentorTutorial.Server.csproj", "{A36964D5-E700-49A7-8B53-DD7273D28963}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinanceMentorTutorial.Server", "FinanceMentorTutorial\Server\FinanceMentorTutorial.Server.csproj", "{A36964D5-E700-49A7-8B53-DD7273D28963}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinanceMentorTutorial.Client", "FinanceMentorTutorial\Client\FinanceMentorTutorial.Client.csproj", "{7ADC36E9-2D1A-4B13-A891-2F3A1764ADA9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinanceMentorTutorial.Client", "FinanceMentorTutorial\Client\FinanceMentorTutorial.Client.csproj", "{7ADC36E9-2D1A-4B13-A891-2F3A1764ADA9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinanceMentorTutorial.Shared", "FinanceMentorTutorial\Shared\FinanceMentorTutorial.Shared.csproj", "{CD4EA247-FAB9-4A62-B976-3E637C6FB5F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinanceMentorTutorial.Shared", "FinanceMentorTutorial\Shared\FinanceMentorTutorial.Shared.csproj", "{CD4EA247-FAB9-4A62-B976-3E637C6FB5F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

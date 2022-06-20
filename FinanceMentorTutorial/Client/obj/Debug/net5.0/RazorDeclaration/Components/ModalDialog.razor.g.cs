@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace FinanceMentorTutorial.Client.Pages
+namespace FinanceMentorTutorial.Client.Components
 {
     #line hidden
     using System;
@@ -82,29 +82,7 @@ using FinanceMentorTutorial.Client.Shared;
 #line default
 #line hidden
 #nullable disable
-#nullable restore
-#line 1 "C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Client\Pages\Earnings.razor"
-using FinanceMentorTutorial.Client.Components;
-
-#line default
-#line hidden
-#nullable disable
-#nullable restore
-#line 2 "C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Client\Pages\Earnings.razor"
-using FinanceMentorTutorial.Shared;
-
-#line default
-#line hidden
-#nullable disable
-#nullable restore
-#line 3 "C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Client\Pages\Earnings.razor"
-using System.Globalization;
-
-#line default
-#line hidden
-#nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/earnings")]
-    public partial class Earnings : Microsoft.AspNetCore.Components.ComponentBase
+    public partial class ModalDialog : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -112,53 +90,39 @@ using System.Globalization;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 61 "C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Client\Pages\Earnings.razor"
-       
-    private Earning[] earnings;
+#line 32 "C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Client\Components\ModalDialog.razor"
+      
+    [Parameter]
+                    public string Title { get; set; }
+                    [Parameter]
+                    public string Text { get; set; }
+                    [Parameter]
+                    public EventCallback<bool> OnClose { get; set; }
+                    [Parameter]
+                    public ModalDialogType DialogType { get; set; }
 
-    private Earning _earningDelete;
+                    private Task ModalCancel()
+                    {
+                        return OnClose.InvokeAsync(false);
+                    }
 
-    public bool DeleteDialogOpen { get; set; }
+                    private Task ModalOk()
+                    {
+                        return OnClose.InvokeAsync(true);
+                    }
 
-    private async Task OnDeleteDialogClose( bool accepted)
-    {
-        if (accepted)
-        {
-            await Http.DeleteAsync($"api/Earnings/{_earningDelete.Id}");
-            await LoadData();
-            _earningDelete = null;
-        }
-        DeleteDialogOpen = false;
-        StateHasChanged();
-    }
+                    public enum ModalDialogType
+                    {
+                        Ok,
+                        OkCancel,
+                        DeleteCancel,
+                    }
 
-    private void OpenDeleteDialog(Earning earning)
-    {
-        DeleteDialogOpen = true;
-        _earningDelete = earning;
-        StateHasChanged();
-    }
-
-    protected async override Task OnInitializedAsync()
-    {
-        await LoadData();
-    }
-
-    private async Task LoadData()
-    {
-        earnings = await Http.GetFromJsonAsync<Earning[]>("api/Earnings");
-        StateHasChanged();
-    }
-
-    public async void Refresh()
-    {
-        await LoadData();
-    }
+                
 
 #line default
 #line hidden
 #nullable disable
-        [global::Microsoft.AspNetCore.Components.InjectAttribute] private HttpClient Http { get; set; }
     }
 }
 #pragma warning restore 1591

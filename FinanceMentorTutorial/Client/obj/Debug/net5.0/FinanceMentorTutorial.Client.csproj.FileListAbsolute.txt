@@ -638,3 +638,5 @@ C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Client
 C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Client\obj\Debug\net5.0\Razor\Pages\Earnings.razor.g.cs
 C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Client\obj\Debug\net5.0\RazorDeclaration\Components\EarningForm.razor.g.cs
 C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Client\obj\Debug\net5.0\Razor\Components\EarningForm.razor.g.cs
+C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Client\obj\Debug\net5.0\RazorDeclaration\Components\ModalDialog.razor.g.cs
+C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Client\obj\Debug\net5.0\Razor\Components\ModalDialog.razor.g.cs

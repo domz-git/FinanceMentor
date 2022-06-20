@@ -1,6 +1,7 @@
 ﻿using FinanceMentorTutorial.Server.Storage;
 using FinanceMentorTutorial.Shared;
 using Microsoft.AspNetCore.Mvc;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -27,6 +28,13 @@ namespace FinanceMentorTutorial.Server.Controllers
         public void Post(Earning earning)
         {
             _earningRepository.Add(earning);
+        }
+        [HttpDelete("{id?}")]
+        public void Delete(Guid id)
+        {
+            var entity = _earningRepository.GetAll()
+                .Single(item => item.Id == id);
+            _earningRepository.Remove(entity);
         }
     }
 }
