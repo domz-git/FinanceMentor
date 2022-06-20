@@ -112,7 +112,7 @@ using System.Globalization;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 61 "C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Client\Pages\Earnings.razor"
+#line 58 "C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Client\Pages\Earnings.razor"
        
     private Earning[] earnings;
 
