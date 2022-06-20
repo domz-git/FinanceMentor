@@ -1,0 +1,12 @@
+C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Shared\bin\Debug\net5.0\FinanceMentorTutorial.Shared.deps.json
+C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Shared\bin\Debug\net5.0\FinanceMentorTutorial.Shared.dll
+C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Shared\bin\Debug\net5.0\ref\FinanceMentorTutorial.Shared.dll
+C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Shared\bin\Debug\net5.0\FinanceMentorTutorial.Shared.pdb
+C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Shared\obj\Debug\net5.0\FinanceMentorTutorial.Shared.csproj.AssemblyReference.cache
+C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Shared\obj\Debug\net5.0\FinanceMentorTutorial.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Shared\obj\Debug\net5.0\FinanceMentorTutorial.Shared.AssemblyInfoInputs.cache
+C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Shared\obj\Debug\net5.0\FinanceMentorTutorial.Shared.AssemblyInfo.cs
+C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Shared\obj\Debug\net5.0\FinanceMentorTutorial.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Shared\obj\Debug\net5.0\FinanceMentorTutorial.Shared.dll
+C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Shared\obj\Debug\net5.0\ref\FinanceMentorTutorial.Shared.dll
+C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Shared\obj\Debug\net5.0\FinanceMentorTutorial.Shared.pdb
