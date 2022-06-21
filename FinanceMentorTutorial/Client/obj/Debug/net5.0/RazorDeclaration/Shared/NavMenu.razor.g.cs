@@ -90,7 +90,7 @@ using FinanceMentorTutorial.Client.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 23 "C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Client\Shared\NavMenu.razor"
+#line 28 "C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Client\Shared\NavMenu.razor"
        
     private bool collapseNavMenu = true;
 

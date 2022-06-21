@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="Components\ExpenseForm.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="5.0.17" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="5.0.17" PrivateAssets="all" />
     <PackageReference Include="System.Net.Http.Json" Version="5.0.0" />
@@ -12,6 +16,18 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Shared\FinanceMentorTutorial.Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Components\ExpenseForm.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Components\ExpenseForm.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Components\ExpenseForm.razor" />
   </ItemGroup>
 
 </Project>

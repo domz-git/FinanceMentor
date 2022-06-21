@@ -195,14 +195,14 @@
       "mscorlib.dll": "sha256-pOPJrGSp+RVyYmvcT+PTaEq9fVhEFzvMs\/3Ue3S2j+A=",
       "netstandard.dll": "sha256-bY3Q1RCB\/lmUAo5AG5YDHBu5uD8OxCGAiJ+wukrs1pw=",
       "System.Private.CoreLib.dll": "sha256-25IZl0xgoqOBdkTlEjUBLmiiRGYCYI1BaFevKzE+EHk=",
-      "FinanceMentorTutorial.Shared.dll": "sha256-BavgAnNPyg1gMfsO8IgiKRQDtaPz0kH8yOShDyTUbO8=",
+      "FinanceMentorTutorial.Shared.dll": "sha256-PM3M3BLYQFwobZTdaMxidSKF09S5FPlFbxXPpeZzPfw=",
       "FinanceMentorTutorial.Client.dll": "sha256-qQT+ZM4JhMg6k9kwMSLnkB\/kFHC98FdgpMn73MeruE8="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "FinanceMentorTutorial.Shared.pdb": "sha256-kUzhcLEUBp840pgIpLgtClDahvSo8AYeHaU3te+fu2A=",
+      "FinanceMentorTutorial.Shared.pdb": "sha256-1l6gx5vL+PntbAwWtT2Pi6J8bcJ+WfnZqor691yd9eQ=",
       "FinanceMentorTutorial.Client.pdb": "sha256-gQ7NPH3pd2npiWdIzztSVViUkVfVzi3vGYc44L02XhM="
     },
     "runtime": {

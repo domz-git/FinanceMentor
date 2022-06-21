@@ -2,7 +2,7 @@
 
 namespace FinanceMentorTutorial.Shared
 {
-    class Expense
+    public class Expense
     {
         public Expense()
         {

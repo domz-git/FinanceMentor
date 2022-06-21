@@ -82,6 +82,28 @@ using FinanceMentorTutorial.Client.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 2 "C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Client\Pages\Expenses.razor"
+using FinanceMentorTutorial.Client.Components;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 3 "C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Client\Pages\Expenses.razor"
+using FinanceMentorTutorial.Shared;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 4 "C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Client\Pages\Expenses.razor"
+using System.Globalization;
+
+#line default
+#line hidden
+#nullable disable
+    [Microsoft.AspNetCore.Components.RouteAttribute("/expenses")]
     public partial class Expenses : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
@@ -89,6 +111,54 @@ using FinanceMentorTutorial.Client.Shared;
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 58 "C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Client\Pages\Expenses.razor"
+       
+    private Expense[] expenses;
+
+    private Expense _expenseDelete;
+
+    public bool DeleteDialogOpen { get; set; }
+
+    private async Task OnDeleteDialogClose(bool accepted)
+    {
+        if (accepted)
+        {
+            await Http.DeleteAsync($"api/Expenses/{_expenseDelete.Id}");
+            await LoadData();
+            _expenseDelete = null;
+        }
+        DeleteDialogOpen = false;
+        StateHasChanged();
+    }
+
+    private void OpenDeleteDialog(Expense expense)
+    {
+        DeleteDialogOpen = true;
+        _expenseDelete = expense;
+        StateHasChanged();
+    }
+
+    protected async override Task OnInitializedAsync()
+    {
+        await LoadData();
+    }
+
+    private async Task LoadData()
+    {
+        expenses = await Http.GetFromJsonAsync<Expense[]>("api/Expenses");
+        StateHasChanged();
+    }
+
+    public async void Refresh()
+    {
+        await LoadData();
+    }
+
+#line default
+#line hidden
+#nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private HttpClient Http { get; set; }
     }
 }
 #pragma warning restore 1591

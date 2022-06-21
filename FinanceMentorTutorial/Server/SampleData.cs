@@ -22,5 +22,18 @@ namespace FinanceMentorTutorial.Server
 
             services.AddSingleton<IRepository<Earning>>(earningRepository);
         }
+
+        public static void AddExpenseRepository(this IServiceCollection services)
+        {
+            var today = DateTime.Today;
+            var lastMonth = DateTime.Today.AddMonths(-1);
+            var previousMonth = DateTime.Today.AddMonths(-2);
+
+            var expenseRepsitory = new MemoryRepository<Expense>();
+
+            expenseRepsitory.Add(new Expense { Date = new DateTime(previousMonth.Year, previousMonth.Month, 25), Amount = 2400, Category = ExpenseCategory.Donations, Subject = "What" });
+
+            services.AddSingleton<IRepository<Expense>>(expenseRepsitory);
+        }
     }
 }
