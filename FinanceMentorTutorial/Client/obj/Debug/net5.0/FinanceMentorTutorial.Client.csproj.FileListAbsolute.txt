@@ -408,7 +408,6 @@ C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Client
 C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Client\obj\Debug\net5.0\FinanceMentorTutorial.Client.RazorComponent.input.cache
 C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Client\obj\Debug\net5.0\RazorDeclaration\App.razor.g.cs
 C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Index.razor.g.cs
-C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Client\obj\Debug\net5.0\RazorDeclaration\Shared\SurveyPrompt.razor.g.cs
 C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Client\obj\Debug\net5.0\RazorDeclaration\_Imports.razor.g.cs
 C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Client\obj\Debug\net5.0\RazorDeclaration\Shared\MainLayout.razor.g.cs
 C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Client\obj\Debug\net5.0\RazorDeclaration\Shared\NavMenu.razor.g.cs
@@ -419,7 +418,6 @@ C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Client
 C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Client\obj\Debug\net5.0\FinanceMentorTutorial.Client.RazorCoreGenerate.cache
 C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Client\obj\Debug\net5.0\Razor\App.razor.g.cs
 C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Client\obj\Debug\net5.0\Razor\Pages\Index.razor.g.cs
-C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Client\obj\Debug\net5.0\Razor\Shared\SurveyPrompt.razor.g.cs
 C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Client\obj\Debug\net5.0\Razor\_Imports.razor.g.cs
 C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Client\obj\Debug\net5.0\Razor\Shared\MainLayout.razor.g.cs
 C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Client\obj\Debug\net5.0\Razor\Shared\NavMenu.razor.g.cs
@@ -638,3 +636,13 @@ C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Client
 C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Client\obj\Debug\net5.0\Razor\Components\ModalDialog.razor.g.cs
 C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Expenses.razor.g.cs
 C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Client\obj\Debug\net5.0\Razor\Pages\Expenses.razor.g.cs
+C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Client\obj\Debug\net5.0\RazorDeclaration\Components\ExpenseForm.razor.g.cs
+C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Client\obj\Debug\net5.0\Razor\Components\ExpenseForm.razor.g.cs
+C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Client\bin\Debug\net5.0\wwwroot\_framework\Radzen.Blazor.dll.gz
+C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Client\bin\Debug\net5.0\wwwroot\_framework\System.Linq.Dynamic.Core.dll.gz
+C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Client\bin\Debug\net5.0\wwwroot\_framework\Radzen.Blazor.dll
+C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Client\bin\Debug\net5.0\wwwroot\_framework\System.Linq.Dynamic.Core.dll
+C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Client\obj\Debug\net5.0\build-gz\r5t+WJvp.gz
+C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Client\obj\Debug\net5.0\build-gz\OrAVz4vj.gz
+C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Client\obj\Debug\net5.0\RazorDeclaration\Components\PieChart.razor.g.cs
+C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Client\obj\Debug\net5.0\Razor\Components\PieChart.razor.g.cs

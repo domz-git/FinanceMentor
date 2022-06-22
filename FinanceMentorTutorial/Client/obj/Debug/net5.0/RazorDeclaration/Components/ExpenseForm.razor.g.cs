@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace FinanceMentorTutorial.Client.Shared
+namespace FinanceMentorTutorial.Client.Components
 {
     #line hidden
     using System;
@@ -82,7 +82,28 @@ using FinanceMentorTutorial.Client.Shared;
 #line default
 #line hidden
 #nullable disable
-    public partial class SurveyPrompt : Microsoft.AspNetCore.Components.ComponentBase
+#nullable restore
+#line 11 "C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Client\_Imports.razor"
+using Radzen;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 12 "C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Client\_Imports.razor"
+using Radzen.Blazor;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 1 "C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Client\Components\ExpenseForm.razor"
+using FinanceMentorTutorial.Shared;
+
+#line default
+#line hidden
+#nullable disable
+    public partial class ExpenseForm : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -90,15 +111,23 @@ using FinanceMentorTutorial.Client.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 12 "C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Client\Shared\SurveyPrompt.razor"
+#line 42 "C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Client\Components\ExpenseForm.razor"
        
-    // Demonstrates how a parent component can supply parameters
+    private ExpenseModel earning = new ExpenseModel { Date = DateTime.Today };
+
     [Parameter]
-    public string Title { get; set; }
+    public EventCallback OnSubmitCallback { get; set; }
+
+    public async Task HandleValidSubmit()
+    {
+        await Http.PostAsJsonAsync<ExpenseModel>("api/Expenses", earning);
+        await OnSubmitCallback.InvokeAsync();
+    }
 
 #line default
 #line hidden
 #nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private HttpClient Http { get; set; }
     }
 }
 #pragma warning restore 1591

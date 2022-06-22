@@ -17,22 +17,26 @@ namespace FinanceMentorTutorial.Server.Controllers
         {
             _expenseRepository = expenceRepository;
         }
+
         [HttpGet]
         public IEnumerable<Expense> Get()
         {
             return _expenseRepository.GetAll()
                 .OrderBy(expense => expense.Date);
         }
+
         [HttpPost]
         public void Post(Expense expense)
         {
             _expenseRepository.Add(expense);
         }
+
         [HttpDelete("{id?}")]
         public void Delete(Guid id)
         {
             var entity = _expenseRepository.GetAll()
                 .Single(item => item.Id == id);
+            _expenseRepository.Remove(entity);
         }
     }
 }

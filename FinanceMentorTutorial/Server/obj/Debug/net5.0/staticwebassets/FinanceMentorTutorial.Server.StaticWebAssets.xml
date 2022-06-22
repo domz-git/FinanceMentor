@@ -2,4 +2,5 @@
   <ContentRoot BasePath="/" Path="C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Client\bin\Debug\net5.0\wwwroot\" />
   <ContentRoot BasePath="/" Path="C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Client\obj\Debug\net5.0\scopedcss\bundle\" />
   <ContentRoot BasePath="/" Path="C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Client\wwwroot\" />
+  <ContentRoot BasePath="_content/Radzen.Blazor" Path="C:\Users\Dominik\.nuget\packages\radzen.blazor\3.18.16\build\..\staticwebassets\" />
 </StaticWebAssets>

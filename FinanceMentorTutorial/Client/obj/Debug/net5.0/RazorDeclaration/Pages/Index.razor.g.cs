@@ -82,6 +82,41 @@ using FinanceMentorTutorial.Client.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 11 "C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Client\_Imports.razor"
+using Radzen;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 12 "C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Client\_Imports.razor"
+using Radzen.Blazor;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 2 "C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Client\Pages\Index.razor"
+using FinanceMentorTutorial.Client.Services;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 3 "C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Client\Pages\Index.razor"
+using System.Globalization;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 4 "C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Client\Pages\Index.razor"
+using FinanceMentorTutorial.Client.Components;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/")]
     public partial class Index : Microsoft.AspNetCore.Components.ComponentBase
     {
@@ -90,6 +125,35 @@ using FinanceMentorTutorial.Client.Shared;
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 69 "C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Client\Pages\Index.razor"
+      
+    private static int currentYear = DateTime.Today.Year;
+    private ICollection<string> colors = new List<string> { "#FBC687", "#F4F7C5", "#93ABD3" };
+    private ICollection<YearlyItem> yearlyExpenses;
+    private ICollection<YearlyItem> yearlyEarnings;
+    private ThreeMonthsData earnings;
+    private ThreeMonthsData expenses;
+
+    protected override async Task OnInitializedAsync()
+    {
+        earnings = await _dataService.LoadLast3MonthsEarnings();
+        expenses = await _dataService.LoadLast3MonthsExpenses();
+        yearlyExpenses = await _dataService.LoadCurrentYearExpenses();
+        yearlyEarnings = await _dataService.LoadCurrentYearEarnings();
+
+        StateHasChanged();
+    }
+
+    string FormatAsUSD(object value)
+    {
+        return ((double)value).ToString("C0", CultureInfo.CreateSpecificCulture("en-US"));
+    }
+
+#line default
+#line hidden
+#nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private IDataService _dataService { get; set; }
     }
 }
 #pragma warning restore 1591

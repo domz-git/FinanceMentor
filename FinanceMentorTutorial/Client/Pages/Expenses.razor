@@ -1,8 +1,9 @@
-﻿@page "/expenses"
-@using FinanceMentorTutorial.Client.Components;
+﻿@using FinanceMentorTutorial.Client.Components;
 @using FinanceMentorTutorial.Shared;
 @using System.Globalization;
 @inject HttpClient Http;
+
+@page "/expenses"
 
 <div class="row">
     <div class="col-lg-8">
@@ -30,14 +31,14 @@
                         }
                         else
                         {
-                            @foreach (var expense in expenses)
+                            @foreach (var earning in expenses)
                             {
                                 <tr>
-                                    <td>@expense.Date.ToShortDateString()</td>
-                                    <td>@expense.Category</td>
-                                    <td>@expense.Subject</td>
-                                    <td>@expense.Amount.ToString("C2", CultureInfo.CreateSpecificCulture("en-US"))</td>
-                                    <td><button type="button" class="btn btn-danger btn-sm" @onclick="()=> OpenDeleteDialog(expense)">Delete</button></td>
+                                    <td>@earning.Date.ToShortDateString()</td>
+                                    <td>@earning.Category</td>
+                                    <td>@earning.Subject</td>
+                                    <td>@earning.Amount.ToString("C2", CultureInfo.CreateSpecificCulture("en-US"))</td>
+                                    <td><button type="button" class="btn btn-danger btn-sm" @onclick="()=> OpenDeleteDialog(earning)">Delete</button></td>
                                 </tr>
                             }
                         }
@@ -47,7 +48,7 @@
         </div>
     </div>
     <div class="col-lg-4">
-        <ExpenseForm OnSubmitCallback="@Refresh"></ExpenseForm>
+        <ExpenseForm OnSubmitCallback="Refresh"></ExpenseForm>
     </div>
 </div>
 @if (DeleteDialogOpen)

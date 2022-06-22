@@ -29,7 +29,9 @@
       "Microsoft.Extensions.Primitives.dll": "sha256-f2PgoftqEkKRuuiAk6S1MHygOuqZBHzB0HOB3vR93TU=",
       "Microsoft.JSInterop.dll": "sha256-pr6L2mjcqc8D0q4a8E717JbHBm5iEM4PFAo1DBJmaUg=",
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-wm\/PyT01CAndytn\/B\/egrjENN3gkDMsMDaFon1TwCHA=",
+      "Radzen.Blazor.dll": "sha256-ZLpGM5ps5mXyofJ\/XTM6PJwXDqDnAqYtIkYevqbFzw8=",
       "System.IO.Pipelines.dll": "sha256-\/C5xhI+m3Aqrcjxy\/TauLyqv\/\/5l8WEW3rXFtVlNhy8=",
+      "System.Linq.Dynamic.Core.dll": "sha256-+dlU8yi5zWnF9GeqOTl26t\/y5vllHc9O3mEwXdQjP7M=",
       "Microsoft.CSharp.dll": "sha256-PAYW1sPiBpeW\/ymU+pxr5HWwUie70A98i\/GlQkkRGgE=",
       "Microsoft.VisualBasic.Core.dll": "sha256-QI+8KXUQ+mrN7stuaK4iVlwIKYvSTAk9VusmeDMZehM=",
       "Microsoft.VisualBasic.dll": "sha256-UY9g5i2GbG\/rVvfU4vj7J1Ek7n4cQrvfr\/Q2BPPFAVM=",
@@ -195,15 +197,15 @@
       "mscorlib.dll": "sha256-pOPJrGSp+RVyYmvcT+PTaEq9fVhEFzvMs\/3Ue3S2j+A=",
       "netstandard.dll": "sha256-bY3Q1RCB\/lmUAo5AG5YDHBu5uD8OxCGAiJ+wukrs1pw=",
       "System.Private.CoreLib.dll": "sha256-25IZl0xgoqOBdkTlEjUBLmiiRGYCYI1BaFevKzE+EHk=",
-      "FinanceMentorTutorial.Shared.dll": "sha256-BavgAnNPyg1gMfsO8IgiKRQDtaPz0kH8yOShDyTUbO8=",
-      "FinanceMentorTutorial.Client.dll": "sha256-qQT+ZM4JhMg6k9kwMSLnkB\/kFHC98FdgpMn73MeruE8="
+      "FinanceMentorTutorial.Shared.dll": "sha256-PM3M3BLYQFwobZTdaMxidSKF09S5FPlFbxXPpeZzPfw=",
+      "FinanceMentorTutorial.Client.dll": "sha256-n++ZBwHEq67+Mt\/z3wm0yYsKGcgxkMxzIaIKBuyI2OY="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "FinanceMentorTutorial.Shared.pdb": "sha256-kUzhcLEUBp840pgIpLgtClDahvSo8AYeHaU3te+fu2A=",
-      "FinanceMentorTutorial.Client.pdb": "sha256-gQ7NPH3pd2npiWdIzztSVViUkVfVzi3vGYc44L02XhM="
+      "FinanceMentorTutorial.Shared.pdb": "sha256-1l6gx5vL+PntbAwWtT2Pi6J8bcJ+WfnZqor691yd9eQ=",
+      "FinanceMentorTutorial.Client.pdb": "sha256-882xVneZh8OeBvtW\/m1Rd\/3uqdLAvnMcBiL7s7+OfAk="
     },
     "runtime": {
       "dotnet.timezones.blat": "sha256-Ek+C0V\/4GBnUGH1\/X20UjHhjyp7se2MX+2RHWSpKSDE=",

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Sh+ZuKffZVkEMi9AKtQIKmzqKRa9xTh4ZySqKdQ8M6bgBuT1cA27L5BWiT/xsjgtvbEMwY/ZGCVfJge+5XfbEQ==",
+  "dgSpecHash": "GbKxC4fbUr5xuLiNhQbzFlLc7sMPHoCpz9y8+fLvqOjjkBv7tLdK4Ze5oWhShseQ35ENZAK1VTqCRSBrg0Krow==",
   "success": true,
   "projectFilePath": "C:\\Users\\Dominik\\source\\repos\\FinanceMentorTutorial\\FinanceMentorTutorial\\Client\\FinanceMentorTutorial.Client.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Dominik\\.nuget\\packages\\libsassbuilder\\2.0.1\\libsassbuilder.2.0.1.nupkg.sha512",
     "C:\\Users\\Dominik\\.nuget\\packages\\microsoft.aspnetcore.authorization\\5.0.17\\microsoft.aspnetcore.authorization.5.0.17.nupkg.sha512",
     "C:\\Users\\Dominik\\.nuget\\packages\\microsoft.aspnetcore.components\\5.0.17\\microsoft.aspnetcore.components.5.0.17.nupkg.sha512",
     "C:\\Users\\Dominik\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\5.0.17\\microsoft.aspnetcore.components.analyzers.5.0.17.nupkg.sha512",
@@ -12,6 +13,7 @@
     "C:\\Users\\Dominik\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\5.0.17\\microsoft.aspnetcore.components.webassembly.5.0.17.nupkg.sha512",
     "C:\\Users\\Dominik\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.devserver\\5.0.17\\microsoft.aspnetcore.components.webassembly.devserver.5.0.17.nupkg.sha512",
     "C:\\Users\\Dominik\\.nuget\\packages\\microsoft.aspnetcore.metadata\\5.0.17\\microsoft.aspnetcore.metadata.5.0.17.nupkg.sha512",
+    "C:\\Users\\Dominik\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Dominik\\.nuget\\packages\\microsoft.extensions.configuration\\5.0.0\\microsoft.extensions.configuration.5.0.0.nupkg.sha512",
     "C:\\Users\\Dominik\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\Dominik\\.nuget\\packages\\microsoft.extensions.configuration.binder\\5.0.0\\microsoft.extensions.configuration.binder.5.0.0.nupkg.sha512",
@@ -28,7 +30,9 @@
     "C:\\Users\\Dominik\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
     "C:\\Users\\Dominik\\.nuget\\packages\\microsoft.jsinterop\\5.0.17\\microsoft.jsinterop.5.0.17.nupkg.sha512",
     "C:\\Users\\Dominik\\.nuget\\packages\\microsoft.jsinterop.webassembly\\5.0.17\\microsoft.jsinterop.webassembly.5.0.17.nupkg.sha512",
+    "C:\\Users\\Dominik\\.nuget\\packages\\radzen.blazor\\3.18.16\\radzen.blazor.3.18.16.nupkg.sha512",
     "C:\\Users\\Dominik\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512",
+    "C:\\Users\\Dominik\\.nuget\\packages\\system.linq.dynamic.core\\1.2.12\\system.linq.dynamic.core.1.2.12.nupkg.sha512",
     "C:\\Users\\Dominik\\.nuget\\packages\\system.net.http.json\\5.0.0\\system.net.http.json.5.0.0.nupkg.sha512",
     "C:\\Users\\Dominik\\.nuget\\packages\\microsoft.netcore.app.runtime.browser-wasm\\5.0.14\\microsoft.netcore.app.runtime.browser-wasm.5.0.14.nupkg.sha512"
   ],

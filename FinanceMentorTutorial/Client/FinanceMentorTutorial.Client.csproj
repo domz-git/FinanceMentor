@@ -5,12 +5,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Remove="Components\ExpenseForm.razor" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="5.0.17" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="5.0.17" PrivateAssets="all" />
+    <PackageReference Include="Radzen.Blazor" Version="3.18.16" />
     <PackageReference Include="System.Net.Http.Json" Version="5.0.0" />
   </ItemGroup>
 
@@ -24,10 +21,6 @@
 
   <ItemGroup>
     <_ContentIncludedByDefault Remove="Components\ExpenseForm.razor" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="Components\ExpenseForm.razor" />
   </ItemGroup>
 
 </Project>

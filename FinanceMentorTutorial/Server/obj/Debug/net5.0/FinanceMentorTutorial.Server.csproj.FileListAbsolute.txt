@@ -58,3 +58,5 @@ C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Server
 C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Server\obj\Debug\net5.0\ref\FinanceMentorTutorial.Server.dll
 C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Server\obj\Debug\net5.0\FinanceMentorTutorial.Server.pdb
 C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Server\obj\Debug\net5.0\FinanceMentorTutorial.Server.genruntimeconfig.cache
+C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Server\bin\Debug\net5.0\Radzen.Blazor.dll
+C:\Users\Dominik\source\repos\FinanceMentorTutorial\FinanceMentorTutorial\Server\bin\Debug\net5.0\System.Linq.Dynamic.Core.dll
