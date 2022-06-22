@@ -1,6 +1,5 @@
 # FinanceMentor
-Blazor tutorial in net 5.0
-Finished a Blazor Web Assembly Application that covers the following:
+Blazor tutorial in net 5.0 that covers the following:
 - Component development
 - Form handling
 - API handling
